@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    background-image: url("https://mishakadenko.me/resources/images/barellbg2.jpg");
+    background-size: 105%;
+}
+
+
+
+@font-face {
+    font-family: "qanelas_soft_demoextrabold";
+    src: url("https://mishakadenko.me/fonts/Quanelas/qanelassoftdemo-extrabold-webfont.woff2") format("woff2"),
+         url("https://mishakadenko.me/fonts/Quanelas/qanelassoftdemo-extrabold-webfont.woff") format("woff"),
+         url("https://mishakadenko.me/fonts/Quanelas/qanelassoftdemo-extrabold-webfont.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "peace_sansregular";
+    src: url("https://mishakadenko.me/fonts/Peace/peace_sans_webfont-webfont.woff2") format("woff2"),
+         url("https://mishakadenko.me/fonts/Peace/peace_sans_webfont-webfont.woff") format("woff"),
+         url("https://mishakadenko.me/fonts/Peace/peace_sans_webfont-webfont.ttf") format("truetype");
+
+}
+
+h1, h2 {
+    font-family: "qanelas_soft_demoextrabold", Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    text-align: center;
+    margin-bottom: -78px;
+    }
+
+h2 {
+    font-size: 102px;
+    color: #16a085 ;
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 100px;
+    color: #0b5345 ;
+    white-space: nowrap;   
+}
+
+header {
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+span {
+    font-family: "peace_sansregular";   
+    color: white;
+}
+
+.sidebar-navigation {
+	background-color: black;
+	float: left;
+  min-height: 100vh;
+	width: 120px;
+}
+
+.sidebar-navigation ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;
+    
+}
+
+.sidebar-navigation ul li {
+  display: block;
+  top: 150px;  
+  left: 0;
+  color: white;
+  list-style-type: none;
+  padding: 70px 0 0 0;
+}
+
+#logo {
+ padding: 10px;
+   left: 0;
+}
+
+i {
+  padding: 25px;
+  text-align: center;
+}
